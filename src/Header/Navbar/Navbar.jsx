@@ -10,7 +10,7 @@ const Navbar = () => {
    <li><p><NavLink className="font-semibold underline text-lg hover:text-white" to="/">Home</NavLink></p></li>
    
    <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/about">About Us</NavLink></li>
-   <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/review">Reviews</NavLink></li>
+   <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/instructor">Instructor</NavLink></li>
    
    </>
 

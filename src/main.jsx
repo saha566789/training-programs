@@ -12,6 +12,8 @@ import CourseDetails from './Pages/CourseDetails';
 import Root from './Layout/Root';
 import ErrorPage from './ErorrPage/ErrorPage';
 import EventsDetails from './Pages/EventsDetails';
+import Instructors from './components/Instrucator/Instructors';
+import InstructorDetails from './Pages/InstructorDetails';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +35,18 @@ const router = createBrowserRouter([
         path:"/event/:id",
         element:<EventsDetails></EventsDetails>,
         loader:()=>fetch('/events.json')
+      },
+      {
+        path:"/instructor",
+       element:<Instructors></Instructors>,
+      
+      },
+      {
+        path:"/instructor/:id",
+        element:<InstructorDetails></InstructorDetails>,
+        loader:()=>fetch('/services.json')
       }
+    
     ],
 
    

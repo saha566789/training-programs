@@ -1,45 +1,116 @@
 [
-    {
+  {
       "id": "1",
       "name": "Python Programming Bootcamp",
       "image": "https://i.ibb.co/N2RY9Hs/Webkids-testimonials.webp",
       "price": 299.99,
-      "short_description": "Join our intensive 4-week Python Programming Bootcamp and gain expertise in Python, covering everything from basics to advanced topics. "
-    },
-    {
+      "short_description": "Join our intensive 4-week Python Programming Bootcamp and gain expertise in Python, covering everything from basics to advanced topics.",
+      "date": "October 10, 2023",
+      "time": "9:00 AM - 1:00 PM",
+      "venue": "Tech Hub Learning Center, 123 Main Street",
+      "instructor_name": " Maria Rodriguez",
+      "instructor_image": "https://i.ibb.co/HzR8hSj/Dr-Maria-Rodriguez.jpg",
+      "professions": ["Software Engineer", "Data Scientist"],
+      "instructor_bio": " Maria Rodriguez is a seasoned software engineer with over 10 years of experience. She holds a Ph.D. in Computer Science and is passionate about teaching Python. Maria has worked on numerous data science projects and is known for her engaging teaching style.",
+      "instructor_contact": {
+        "email": "maria.rodriguez@example.com",
+        "phone": "+1 (123) 456-7890",
+        "website": "https://www.mariarodriguez.com"
+    }
+  },
+  {
       "id": "2",
       "name": "Digital Marketing Workshop",
       "image": "https://i.ibb.co/fdgKcwt/digital-marketing-workshop.webp",
       "price": 149.99,
-      "short_description": "Discover the latest digital marketing strategies and techniques in our hands-on workshop. "
-    },
-    {
+      "short_description": "Discover the latest digital marketing strategies and techniques in our hands-on workshop.",
+      "date": "October 15, 2023",
+      "time": "10:00 AM - 3:00 PM",
+      "venue": "DigitalX Conference Center, 456 Market Avenue",
+      "instructor_name": "Emily Johnson",
+      "instructor_image": "https://i.ibb.co/qg7dCTh/Emily-Johnson.jpg",
+      "professions": ["Digital Marketing Specialist", "SEO Expert"],
+      "instructor_bio": "Emily Johnson is a digital marketing expert with a strong background in SEO and social media marketing. She has helped numerous businesses increase their online presence and revenue through effective digital marketing strategies.",
+      "instructor_contact": {
+        "email": "emily.johnson@example.com",
+        "phone": "+1 (987) 654-3210",
+        "website": "https://www.emilyjohnsonmarketing.com"
+    }
+  },
+  {
       "id": "3",
       "name": "Public Speaking Mastery Seminar",
       "image": "https://i.ibb.co/j5ZQxvF/public-speaking.jpg",
       "price": 249.99,
-      "short_description": "Conquer the stage with our Public Speaking Mastery Seminar. Develop powerful presentation skills, overcome stage fright, and captivate your audience. "
-    },
-    {
+      "short_description": "Conquer the stage with our Public Speaking Mastery Seminar. Develop powerful presentation skills, overcome stage fright, and captivate your audience.",
+      "date": "October 20, 2023",
+      "time": "11:30 AM - 4:30 PM",
+      "venue": "SpeakWell Auditorium, 789 Presentation Road",
+      "instructor_name": "John Anderson",
+      "instructor_image": "https://i.ibb.co/HB65PCr/John-Anderson.png",
+      "professions": ["Public Speaking Coach", "Motivational Speaker"],
+      "instructor_bio": "John Anderson is a renowned public speaking coach and motivational speaker. He has trained individuals and corporate teams to become confident speakers. John is known for his inspirational speeches and effective coaching methods.",
+      "instructor_contact": {
+        "email": "john.anderson@example.com",
+        "phone": "+1 (567) 890-1234",
+        "website": "https://www.johnandersonspeaks.com"
+    }
+  },
+  {
       "id": "4",
       "name": "Web Development Bootcamp",
       "image": "https://i.ibb.co/8BsjjmH/web-boot.png",
       "price": 249.99,
-      "short_description": "Start your journey in web development with our intensive bootcamp. From HTML and CSS to JavaScript and frameworks, build modern, responsive websites from scratch."
-    },
-    {
+      "short_description": "Start your journey in web development with our intensive bootcamp. From HTML and CSS to JavaScript and frameworks, build modern, responsive websites from scratch.",
+      "date": "October 25, 2023",
+      "time": "9:30 AM - 5:30 PM",
+      "venue": "CodeCamp Institute, 101 Developer Lane",
+      "instructor_name": "Sarah Davis",
+      "instructor_image": "https://i.ibb.co/sqm0rPF/Sarah-Davis.jpg",
+      "professions": ["Full-Stack Developer", "Web Development Instructor"],
+      "instructor_bio": "Sarah Davis is a seasoned full-stack developer with a passion for teaching web development. She has worked on a wide range of web projects and enjoys helping beginners become proficient in web development.",
+        "instructor_contact": {
+            "email": "sarah.davis@example.com",
+            "phone": "+1 (234) 567-8901",
+            "website": "https://www.sarahdavisdev.com"
+        }
+  },
+  {
       "id": "5",
       "name": "Financial Planning Seminar",
       "image": "https://i.ibb.co/7JWDd50/Financial-Planning.png",
       "price": 99.99,
-      "short_description": "Secure your financial future with our expert-led Financial Planning Seminar. Learn key strategies for budgeting, investing, and retirement planning. "
-    },
-    {
+      "short_description": "Secure your financial future with our expert-led Financial Planning Seminar. Learn key strategies for budgeting, investing, and retirement planning.",
+      "date": "October 30, 2023",
+      "time": "6:00 PM - 8:00 PM",
+      "venue": "MoneyMasters Community Center, 567 Finance Street",
+      "instructor_name": "David Smith",
+      "instructor_image": "https://i.ibb.co/Wvvr7TH/David-Smith-400x600pix.jpg",
+      "professions": ["Certified Financial Planner", "Investment Advisor"],
+      "instructor_bio": "David Smith is a certified financial planner with a wealth of experience in financial planning and investment advisory. He is dedicated to helping individuals achieve their financial goals and retire comfortably.",
+        "instructor_contact": {
+            "email": "david.smith@example.com",
+            "phone": "+1 (345) 678-9012",
+            "website": "https://www.davidsmithfinance.com"
+        }
+  },
+  {
       "id": "6",
       "name": "Leadership and Management Seminar",
       "image": "https://i.ibb.co/nLzBYZk/Leadership-Training-in-Singapore.webp",
       "price": 149.99,
-      "short_description": "Elevate your leadership skills with our Leadership and Management Seminar. Gain insights into effective leadership strategies, team management, and decision-making. "
-    }
-  ]
-  
+      "short_description": "Elevate your leadership skills with our Leadership and Management Seminar. Gain insights into effective leadership strategies, team management, and decision-making.",
+      "date": "November 5, 2023",
+      "time": "1:00 PM - 5:00 PM",
+      "venue": "LeadWell Conference Hall, 101 Leadership Avenue",
+      "instructor_name": "Alexandra Turner",
+      "instructor_image": "https://i.ibb.co/njCP7wn/Alexandra-Turner.jpg",
+      "professions": ["Leadership Coach", "Management Consultant"],
+      "instructor_bio": "Alexandra Turner is a seasoned leadership coach and management consultant. She has worked with top executives and organizations to enhance leadership capabilities and drive business success.",
+      "instructor_contact": {
+          "email": "alexandra.turner@example.com",
+          "phone": "+1 (456) 789-0123",
+          "website": "https://www.alexandraturnerleadership.com"
+      }
+  }
+]
