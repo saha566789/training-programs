@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path:"/event/:id",
         element:<EventsDetails></EventsDetails>,
-        loader:()=>fetch('/services.json')
+        loader:()=>fetch('/events.json')
       }
     ],
 

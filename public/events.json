@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Python Programming Bootcamp",
+        "image": "https://i.ibb.co/N2RY9Hs/Webkids-testimonials.webp",
+        "price": 299.99,
+        "short_description": "Join our intensive 4-week Python Programming Bootcamp and gain expertise in Python, covering everything from basics to advanced topics.",
+        "date": "October 10, 2023",
+        "time": "9:00 AM - 1:00 PM",
+        "venue": "Tech Hub Learning Center, 123 Main Street"
+    },
+    {
+        "id": "2",
+        "name": "Digital Marketing Workshop",
+        "image": "https://i.ibb.co/fdgKcwt/digital-marketing-workshop.webp",
+        "price": 149.99,
+        "short_description": "Discover the latest digital marketing strategies and techniques in our hands-on workshop.",
+        "date": "October 15, 2023",
+        "time": "10:00 AM - 3:00 PM",
+        "venue": "DigitalX Conference Center, 456 Market Avenue"
+    },
+    {
+        "id": "3",
+        "name": "Public Speaking Mastery Seminar",
+        "image": "https://i.ibb.co/j5ZQxvF/public-speaking.jpg",
+        "price": 249.99,
+        "short_description": "Conquer the stage with our Public Speaking Mastery Seminar. Develop powerful presentation skills, overcome stage fright, and captivate your audience.",
+        "date": "October 20, 2023",
+        "time": "11:30 AM - 4:30 PM",
+        "venue": "SpeakWell Auditorium, 789 Presentation Road"
+    },
+    {
+        "id": "4",
+        "name": "Web Development Bootcamp",
+        "image": "https://i.ibb.co/8BsjjmH/web-boot.png",
+        "price": 249.99,
+        "short_description": "Start your journey in web development with our intensive bootcamp. From HTML and CSS to JavaScript and frameworks, build modern, responsive websites from scratch.",
+        "date": "October 25, 2023",
+        "time": "9:30 AM - 5:30 PM",
+        "venue": "CodeCamp Institute, 101 Developer Lane"
+    },
+    {
+        "id": "5",
+        "name": "Financial Planning Seminar",
+        "image": "https://i.ibb.co/7JWDd50/Financial-Planning.png",
+        "price": 99.99,
+        "short_description": "Secure your financial future with our expert-led Financial Planning Seminar. Learn key strategies for budgeting, investing, and retirement planning.",
+        "date": "October 30, 2023",
+        "time": "6:00 PM - 8:00 PM",
+        "venue": "MoneyMasters Community Center, 567 Finance Street"
+    },
+    {
+        "id": "6",
+        "name": "Leadership and Management Seminar",
+        "image": "https://i.ibb.co/nLzBYZk/Leadership-Training-in-Singapore.webp",
+        "price": 149.99,
+        "short_description": "Elevate your leadership skills with our Leadership and Management Seminar. Gain insights into effective leadership strategies, team management, and decision-making.",
+        "date": "November 5, 2023",
+        "time": "1:00 PM - 5:00 PM",
+        "venue": "LeadWell Conference Hall, 101 Leadership Avenue"
+    }
+]
