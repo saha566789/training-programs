@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Python Programming Bootcamp",
+      "image": "https://i.ibb.co/N2RY9Hs/Webkids-testimonials.webp",
+      "price": 299.99,
+      "short_description": "Join our intensive 4-week Python Programming Bootcamp and gain expertise in Python, covering everything from basics to advanced topics. You will learn about data types, control structures, functions, and more. Dive deep into web development with Django and Flask frameworks. Explore data analysis and machine learning with pandas, NumPy, and scikit-learn. By the end of the bootcamp, you'll be proficient in Python and ready to tackle real-world projects."
+    },
+    {
+      "id": "2",
+      "name": "Digital Marketing Workshop",
+      "image": "https://i.ibb.co/fdgKcwt/digital-marketing-workshop.webp",
+      "price": 149.99,
+      "short_description": "Discover the latest digital marketing strategies and techniques in our hands-on workshop. Dive into social media advertising, SEO, content marketing, and email campaigns. Learn how to analyze data and measure ROI effectively. This workshop equips you with the skills to create and execute successful digital marketing campaigns that drive results and boost your brand's online presence."
+    },
+    {
+      "id": "3",
+      "name": "Public Speaking Mastery Seminar",
+      "image": "https://i.ibb.co/j5ZQxvF/public-speaking.jpg",
+      "price": 249.99,
+      "short_description": "Conquer the stage with our Public Speaking Mastery Seminar. Develop powerful presentation skills, overcome stage fright, and captivate your audience. Learn to craft compelling speeches, control your body language, and handle Q&A sessions with confidence. By the end of the seminar, you'll be a persuasive and engaging speaker, ready for any public speaking challenge."
+    },
+    {
+      "id": "4",
+      "name": "Web Development Bootcamp",
+      "image": "https://i.ibb.co/8BsjjmH/web-boot.png",
+      "price": 249.99,
+      "short_description": "Start your journey in web development with our intensive bootcamp. From HTML and CSS to JavaScript and frameworks like React and Node.js, you'll build modern, responsive websites from scratch. Gain hands-on experience with real projects and learn the skills needed for a successful web development career."
+    },
+    {
+      "id": "5",
+      "name": "Financial Planning Seminar",
+      "image": "https://i.ibb.co/7JWDd50/Financial-Planning.png",
+      "price": 99.99,
+      "short_description": "Secure your financial future with our expert-led Financial Planning Seminar. Learn key strategies for budgeting, investing, and retirement planning. Gain insights into managing debt, building an emergency fund, and making informed investment decisions. By the end of the seminar, you'll have a solid financial plan to achieve your goals."
+    },
+    {
+      "id": "6",
+      "name": "Leadership and Management Seminar",
+      "image": "https://i.ibb.co/nLzBYZk/Leadership-Training-in-Singapore.webp",
+      "price": 149.99,
+      "short_description": "Elevate your leadership skills with our Leadership and Management Seminar. Gain insights into effective leadership strategies, team management, and decision-making. Learn to lead with confidence, inspire your team, and drive success. Whether you're a seasoned manager or aspiring leader, this seminar will help you achieve your leadership potential."
+    }
+  ]
+  

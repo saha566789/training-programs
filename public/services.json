@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Python Programming Bootcamp",
+      "image": "https://i.ibb.co/N2RY9Hs/Webkids-testimonials.webp",
+      "price": 299.99,
+      "short_description": "Join our intensive 4-week Python Programming Bootcamp and gain expertise in Python, covering everything from basics to advanced topics. "
+    },
+    {
+      "id": "2",
+      "name": "Digital Marketing Workshop",
+      "image": "https://i.ibb.co/fdgKcwt/digital-marketing-workshop.webp",
+      "price": 149.99,
+      "short_description": "Discover the latest digital marketing strategies and techniques in our hands-on workshop. "
+    },
+    {
+      "id": "3",
+      "name": "Public Speaking Mastery Seminar",
+      "image": "https://i.ibb.co/j5ZQxvF/public-speaking.jpg",
+      "price": 249.99,
+      "short_description": "Conquer the stage with our Public Speaking Mastery Seminar. Develop powerful presentation skills, overcome stage fright, and captivate your audience. "
+    },
+    {
+      "id": "4",
+      "name": "Web Development Bootcamp",
+      "image": "https://i.ibb.co/8BsjjmH/web-boot.png",
+      "price": 249.99,
+      "short_description": "Start your journey in web development with our intensive bootcamp. From HTML and CSS to JavaScript and frameworks, build modern, responsive websites from scratch."
+    },
+    {
+      "id": "5",
+      "name": "Financial Planning Seminar",
+      "image": "https://i.ibb.co/7JWDd50/Financial-Planning.png",
+      "price": 99.99,
+      "short_description": "Secure your financial future with our expert-led Financial Planning Seminar. Learn key strategies for budgeting, investing, and retirement planning. "
+    },
+    {
+      "id": "6",
+      "name": "Leadership and Management Seminar",
+      "image": "https://i.ibb.co/nLzBYZk/Leadership-Training-in-Singapore.webp",
+      "price": 149.99,
+      "short_description": "Elevate your leadership skills with our Leadership and Management Seminar. Gain insights into effective leadership strategies, team management, and decision-making. "
+    }
+  ]
+  
