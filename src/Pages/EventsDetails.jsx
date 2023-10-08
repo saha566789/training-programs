@@ -17,7 +17,7 @@ const EventsDetails = () => {
             <Navbar></Navbar>
           
            <div>
-            <img className="w-[50%] h-96 mx-auto " src={event.image} alt="" />
+            <img className="w-[50%] h-96 " src={event.image} alt="" />
             <p className="text-green-600 font-extrabold text-3xl">{event.name}</p>
             <p className="text-xl font-semibold">Event Details</p>
            <div className="mt-2">
