@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../../Header/Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Hooks/AuthProvider";
@@ -9,6 +9,8 @@ const Login = () => {
 
     const {googleSign,signIn} =useContext(AuthContext)
     const navigate= useNavigate()
+    const location = useLocation()
+    console.log(location)
    
 
     const handleGoogle =() =>{
@@ -33,7 +35,7 @@ const Login = () => {
         signIn(email,password)
         .then(result =>{
             toast.success('Your account logged in successfully');
-            navigate('/')
+            navigate(location?.state?location.state: '/')
         })
         .catch(error => {
             toast.error('Please give me right email or password')

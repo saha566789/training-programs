@@ -18,6 +18,8 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './Hooks/AuthProvider';
 import PrivateRoutes from './PrivateRoute/PrivateRoutes';
+import AboutUs from './Pages/About/AboutUs';
+import Contact from './Pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -37,17 +39,22 @@ const router = createBrowserRouter([
       },
       {
         path:"/event/:id",
-        element:<EventsDetails></EventsDetails>,
+        element:<PrivateRoutes><EventsDetails></EventsDetails></PrivateRoutes>,
         loader:()=>fetch('/events.json')
       },
-      // {
-      //   path:"/gallery",
-      //  element:<Instructors></Instructors>,
+      {
+        path:"/about",
+       element:<AboutUs></AboutUs>,
       
-      // },
+      },
+      {
+        path:"/contact",
+       element:<Contact></Contact>,
+      
+      },
       {
         path:"/instructor/:id",
-        element:<InstructorDetails></InstructorDetails>,
+        element:<PrivateRoutes><InstructorDetails></InstructorDetails></PrivateRoutes>,
         loader:()=>fetch('/services.json')
       },
       {

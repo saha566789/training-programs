@@ -42,8 +42,9 @@ const Register = () => {
         })
 
 
-        if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/.test(password)){
+        if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#$%^&+=!*_])[A-Za-z\d@#$%^&+=!*_]{8,}$/.test(password)){
             toast.error ('Minimum eight characters, at least one letter and one number')
+            return
         }
     }
     return (

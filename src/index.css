@@ -8,3 +8,13 @@
     background-repeat: no-repeat;
    background-size: cover;
 }
+.note-container{
+    background: url(https://i.ibb.co/YXgxYX5/note-shit.jpg),rgb(202, 194, 194);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.contact-container{
+    background: url(https://i.ibb.co/SJs19nC/contactus.jpg),rgb(53, 42, 42);
+    background-blend-mode: soft-light;
+}
