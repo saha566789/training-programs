@@ -30,7 +30,7 @@ const Register = () => {
 
        
 
-        if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#$%^&+=!*_])[A-Za-z\d@#$%^&+=!*_]{8,}$/.test(password)){
+        if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#$%^&+=!*_])[A-Za-z\d@#$%^&+=!*_]{6,}$/.test(password)){
             toast.error ('Minimum six characters, at least capital letter and special character')
             return;
         }
