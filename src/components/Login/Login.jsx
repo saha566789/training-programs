@@ -38,7 +38,9 @@ const Login = () => {
             navigate(location?.state?location.state: '/')
         })
         .catch(error => {
-            toast.error('Please give me right email or password')
+           
+              toast.error('Invalid email or password')
+            
         })
         if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/.test(password)){
           

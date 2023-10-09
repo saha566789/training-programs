@@ -16,7 +16,7 @@ const Navbar = () => {
     logout().then()
   }
   const navLinks = <>
-    <li><p><NavLink className="font-semibold underline text-lg hover:text-white" to="/">Home</NavLink></p></li>
+    <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/">Home</NavLink></li>
 
     <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/about">About Us</NavLink></li>
     <li><NavLink className="font-semibold underline text-lg hover:text-white" to="/contact">Contact</NavLink></li>
