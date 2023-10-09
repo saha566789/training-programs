@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { BsFillCalendar2Fill,BsFillHouseFill } from "react-icons/bs";
 import {BiTimeFive} from "react-icons/bi";
 import Navbar from "../Header/Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const EventsDetails = () => {
     const events = useLoaderData()
@@ -17,8 +18,8 @@ const EventsDetails = () => {
             <Navbar></Navbar>
           
            <div>
-            <img className="w-[50%] h-96 " src={event.image} alt="" />
-            <p className="text-green-600 font-extrabold text-3xl">{event.name}</p>
+            <img className="lg:w-[50%] w-[80%] lg:h-96  h-64" src={event.image} alt="" />
+            <p className="text-green-600 font-extrabold text-lg lg:text-3xl">{event.name}</p>
             <p className="text-xl font-semibold">Event Details</p>
            <div className="mt-2">
            <div className="flex gap-2">
@@ -37,6 +38,9 @@ const EventsDetails = () => {
               
             </div>
            </div>
+           </div>
+           <div className="mt-20 ">
+           <Footer></Footer>
            </div>
         </div>
     );

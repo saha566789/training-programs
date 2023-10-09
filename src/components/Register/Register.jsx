@@ -28,6 +28,12 @@ const Register = () => {
         console.log(name,photo,email,password)
 
 
+       
+
+        if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%#*?&])[A-Za-z\d@$!%*?&]{6,}$/.test(password)){
+            toast.error ('Minimum six characters, at least capital letter and special character')
+            return;
+        }
         createUser(email,password)
         .then(result => {
             handleUpdateProfile(name, photo)
@@ -41,19 +47,15 @@ const Register = () => {
             toast.error(error.message)
         })
 
-
-        if(!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@#$%^&+=!*_])[A-Za-z\d@#$%^&+=!*_]{8,}$/.test(password)){
-            toast.error ('Minimum eight characters, at least one letter and one number')
-            return
-        }
     }
+
     return (
         <div>
             <Navbar></Navbar>
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col ">
     <div className="text-center ">
-      <h1 className="text-4xl font-bold">Register Your Account.</h1>
+      <h1 className="text-lg lg:text-4xl font-bold">Register Your Account.</h1>
       
     </div>
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -81,12 +83,10 @@ const Register = () => {
             <span className="label-text">Password</span>
           </label>
           <input type="password" name="password" placeholder="Password" className="input input-bordered" required />
-          <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-          </label>
+          
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
+          <button className="btn btn-primary">Register</button>
           <h2 className="text-center text-gray-400">Or</h2>
           <button onClick={handleGoogle} className="btn btn-primary">Sign in Google</button>
         </div>

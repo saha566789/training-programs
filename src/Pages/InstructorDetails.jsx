@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../Header/Navbar/Navbar";
 import { AiOutlineMail } from "react-icons/ai";
 import {CgWebsite} from "react-icons/cg"
+import Footer from "../Footer/Footer";
 
 
 const InstructorDetails = () => {
@@ -28,12 +29,14 @@ const InstructorDetails = () => {
                     <h2 className="text-2xl">Contact</h2>
                 <p className="flex underline gap-1"><span style={{color:"blue"}} className="mt-1"><AiOutlineMail></AiOutlineMail></span>{instructor.instructor_contact.email}</p>
                
-                <p className="flex underline gap-1 "><span style={{color:"blue"}}  className="mt-1"><CgWebsite></CgWebsite></span>{instructor.instructor_contact.website}</p>
+                <p className="flex underline gap-1 w-full"><span style={{color:"blue"}}  className="mt-1"><CgWebsite></CgWebsite></span>{instructor.instructor_contact.website}</p>
             </div>
             </div>
             
           </div>
-     
+          <div className="mt-20 py-4">
+           <Footer></Footer>
+           </div>
         </div>
     );
 };

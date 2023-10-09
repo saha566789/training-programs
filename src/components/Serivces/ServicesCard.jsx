@@ -7,7 +7,7 @@ const ServicesCard = ({service}) => {
         <div className="card  bg-green-100 shadow-xl">
         <figure><img className="h-52 w-full" src={image} alt="Shoes" /></figure>
         <div className="card-body">
-          <h2 className="card-title font-bold">{name}</h2>
+          <h2 className="card-title lg:font-bold font-semibold text-xl lg:text-2xl">{name}</h2>
           <p className="text-xs">{short_description}</p>
           <p className="text-xl">Price: <span  className="text-xl font-semibold"> ${price}</span></p>
         

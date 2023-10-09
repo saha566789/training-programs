@@ -34,7 +34,7 @@
       "instructor_contact": {
         "email": "emily.johnson@example.com",
         "phone": "+1 (987) 654-3210",
-        "website": "https://www.emilyjohnsonmarketing.com"
+        "website": "https://www.emilyjohnson.com"
     }
   },
   {
@@ -110,7 +110,7 @@
       "instructor_contact": {
           "email": "alexandra.turner@example.com",
           "phone": "+1 (456) 789-0123",
-          "website": "https://www.alexandraturnerleadership.com"
+          "website": "https://www.alexandraturner.com"
       }
   }
 ]

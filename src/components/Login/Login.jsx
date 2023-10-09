@@ -41,8 +41,10 @@ const Login = () => {
             toast.error('Please give me right email or password')
         })
         if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/.test(password)){
+          
             toast.error ('Minimum six characters, at least capital letter and special character')
             return;
+           
         }
     }
     return (
@@ -51,7 +53,7 @@ const Login = () => {
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col ">
     <div className="text-center ">
-      <h1 className="text-4xl font-bold">Login Your Account.</h1>
+      <h1 className="lg:text-4xl text-xl font-bold">Login Your Account.</h1>
       
     </div>
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
