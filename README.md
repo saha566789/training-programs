@@ -1,8 +1,15 @@
-# React + Vite
+# Confident Career
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Click here for the private repo:[https://65240efc15c70405b8d98e18--clever-monstera-e3541b.netlify.app/]
+<h2>Add 5 projects features</h2>
+<ol>
+<li>Dynamic load data.</li>
+<li>Details clicked show dynamic card list.</li>
+<li>Instructor name clicked show dynamic instructor details.</li>
+<li>User can login with email and password.</li>
+<li>Also,Mobile and desktop device responsive.</li>
+</ol>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
