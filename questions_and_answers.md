@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: B: `ReferenceError: greetign is not defined`
 
-<i>Here, Greeting value is taken with let variable. There is ReferenceError due to gretign being empty object.</i>
+<i>Here, The let varible named greeting is taken. There is ReferenceError due to gretign being empty object.</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer:  C: `"12"`
 
-<i>Here, the + operator is used for addition. But 1 is the number and "2" is the string, so since "2" is a string, javascript declares a string instead of adding.</i>
+<i>Here, the + operator is used for addition. But 1 is the number and "2" is the string, so since "2" is a string,javascript declares a string instead of adding.</i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Here, Food is taken with food name as 4 strings with variable.Console.log(food) thats why food value is found.</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>No parameter is given when calling console.log(sayHi()).thats why undefined.JavaScript allows you to call a function.Returns an undefined value if there is no parameter</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:  C: 3
 
-<i>Write your explanation here</i>
+<i>When num = 0 then if(num) is false and counts from 0.When num = 1 then if(num) is true and increments by 1 to count from . The value will be 1.When num = 2 then if(num) is true and increments by 1 to count from . The value will be 2.When num = 3 then if(num) is true and increments by 1 to count from . The value will be 3.</i>
 
 </p>
 </details>
