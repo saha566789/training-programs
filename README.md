@@ -1,6 +1,6 @@
 # Confident Career
 
-Click here for the website live link: https://652424ad7b689600805b53fe--clever-monstera-e3541b.netlify.app/r
+Click here for the website live link: https://65242d64335edb0966839b54--clever-monstera-e3541b.netlify.app/
 <h2>Add 5 projects features</h2>
 <ol>
 <li>Dynamic load data.</li>
